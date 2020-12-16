@@ -30,5 +30,6 @@ switch(request) {
         gameController.commandLevelUp(parameter[0], parameter[1])
     break;
     default:
+        console.log('maaf command yang anda gunakan salah, gunakan comman help untuk melihat command yang tersedia')
 
 }
