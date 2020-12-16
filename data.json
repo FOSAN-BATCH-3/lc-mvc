@@ -6,12 +6,6 @@
     "level": 20
   },
   {
-    "id": 2,
-    "name": "Adit",
-    "job": "knight",
-    "level": 10
-  },
-  {
     "id": 3,
     "name": "Fitra",
     "job": "knight",
@@ -22,5 +16,11 @@
     "name": "Django",
     "job": "knight",
     "level": 40
+  },
+  {
+    "id": 5,
+    "name": "edo",
+    "job": "direktur",
+    "level": 101
   }
 ]
