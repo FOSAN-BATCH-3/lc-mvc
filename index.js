@@ -11,8 +11,18 @@ switch (request) {
         gamingController.all();
         break;
     case 'add':
-        gamingController.add();
+        gamingController.add(parameter[0], parameter[1]);
+        break;
+    case 'delete':
+        gamingController.delete(parameter);
+        break;
+    case 'change':
+        gamingController.change(parameter[0], parameter[1]);
+        break;
+    case 'levelup':
+        gamingController.levelup(parameter[0], parameter[1]);
         break;
     default:
+        console.log('Berikan perintah yang benar!!!');
         break;
 }

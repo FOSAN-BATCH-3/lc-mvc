@@ -15,20 +15,18 @@
     "id": 3,
     "name": "Fitra",
     "job": "knight",
-    "level": 8
+    "level": 28
   },
   {
     "id": 4,
     "name": "Django",
-    "job": "knight",
+    "job": "blacksmith",
     "level": 40
   },
   {
     "id": 5,
-    "level": "1"
-  },
-  {
-    "id": 6,
-    "level": "1"
+    "name": "bhagas",
+    "job": "magician",
+    "level": 1
   }
 ]

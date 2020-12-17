@@ -18,9 +18,24 @@ class GamingController{
         
     }
     static add(name, job){
-        GamingModel.add(name, job, (data =>{
+        GamingModel.add(name, job, (data) =>{
             GamingView.add(data)
-        }))
+        })
+    }
+    static delete(name){
+        GamingModel.delete(name, (data) =>{
+            GamingView.delete(data)
+        })
+    }
+    static change(name, job){
+        GamingModel.change(name, job, (data) =>{
+            GamingView.change(data)
+        })
+    }
+    static levelup(name, level){
+        GamingModel.levelup(name, level, (data) =>{
+            GamingView.levelup(data)
+        })
     }
 }
 module.exports = GamingController
